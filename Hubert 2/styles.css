@@ -1,0 +1,30 @@
+.a{
+   background-color: red;
+   grid-column: 1/-1;
+}
+.z{
+   background-color: blue;
+}
+.e{
+   background-color: green;
+   grid-row:2/4 ;
+}
+.r{
+  background-color: yellow;
+  grid-row: 2/4 ;
+  grid-column:3 ;
+}
+.t{
+  background-color: antiquewhite;
+}
+.y{
+  background-color: rgb(0, 225, 255);
+  grid-column: 1/-1;
+}
+.azerty{
+  display: grid; 
+  grid-template-columns: 80px 600px 80px;     
+  grid-template-rows:100px 100px 500px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+}

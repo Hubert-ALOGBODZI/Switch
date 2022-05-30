@@ -1,0 +1,65 @@
+.navbar{
+    background-color: rgb(29, 117, 199);
+    width: 100%;
+    height: 10%;
+}
+.logo{
+    border-radius: 100%;
+    height: 8em;
+    width: 8em;
+   background-image: url("bg.jpg");
+   background-size: cover;
+   margin-top: 20%;
+   margin-left: 1em;
+}
+.menu{
+    text-decoration: none;
+    margin-top: -5%;
+    margin-left: 60%;
+}
+h1, h3, h4, h5{
+    text-align: center;
+    width: 100%;
+}
+.accueil{
+    background-image: url("tof.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.imgprofil{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 20em;
+    float: left;
+}
+.msgprofil{
+    float: right;
+    margin-top: -50%;
+}
+.actuellement{
+    background-color: aqua;
+}
+.imganime{
+    background-image: url("tof.jpg");
+    height: 5em;
+    width: 10em;
+    background-size: cover;
+    float: right;
+    margin-top: -6em;
+    margin-right: 20%;
+}
+.all{
+    transform: translateX(50%);
+    transform: translateY(300%);
+}
+.portfolio{
+    display: flex;   
+    column-gap: 5em;
+    margin-top: 10em;
+}
+.prt{
+    height: 10em;
+}

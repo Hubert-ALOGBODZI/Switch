@@ -1,0 +1,27 @@
+.a{
+   background-color: red;
+   grid-area:a ;
+}
+.z{
+    background-color: red;
+    grid-area: z;
+}
+
+.e{
+   background-color: bisque; 
+   grid-area: e; 
+}
+.r{
+   background-color: aquamarine;
+   grid-area: r;
+}
+.azerty{
+   display: grid;
+   grid-template-columns: 20% 60% 20%;
+   grid-template-rows: 20% 200px 20%;
+   grid-gap: 10px;
+   grid-template-areas: "a e z"
+                        "a e z"
+                        "r e r"
+                        "r r r";
+}
